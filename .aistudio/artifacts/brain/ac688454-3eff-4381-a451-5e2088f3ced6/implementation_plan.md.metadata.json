@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan estructurado para la sincronización automática de datos con Google Drive y Google Sheets en el prototipo de Inducción SENA (Acuerdo 009 de 2024), con guardado transparente en segundo plano ante eventos de avance y notificaciones discretas tipo toast.",
+  "updatedAt":  "2026-10-21T15:46:34.417175281Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
