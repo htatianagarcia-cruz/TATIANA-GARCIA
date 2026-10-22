@@ -159,10 +159,10 @@ export const RoleSelectionLanding: React.FC<RoleSelectionLandingProps> = ({
 
           <button
             onClick={() => setIsTutorialOpen(true)}
-            className="hidden sm:flex items-center gap-2 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/50 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900 transition-colors"
+            className="flex items-center gap-2 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/50 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900 transition-colors"
           >
             <PlayCircle className="w-3.5 h-3.5" />
-            <span>Ver Tutorial</span>
+            <span className="hidden sm:inline">Ver Tutorial</span>
           </button>
           <button
             onClick={onToggleDarkMode}
