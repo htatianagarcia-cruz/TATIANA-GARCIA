@@ -465,9 +465,6 @@ export const RoleSelectionLanding: React.FC<RoleSelectionLandingProps> = ({
                       <label className="block text-xs font-bold text-slate-900 dark:text-white">
                         Contraseña de Acceso Institucional *
                       </label>
-                      <span className="text-[11px] text-emerald-700 dark:text-emerald-400 font-mono font-medium">
-                        (Clave: Sena1234)
-                      </span>
                     </div>
 
                     <div className="relative">
